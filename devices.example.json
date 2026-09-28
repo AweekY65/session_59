@@ -1,0 +1,32 @@
+{
+  "devices": [
+    {
+      "unit_id": 1,
+      "size": 1000,
+      "input_size": 1000,
+      "word_order": "high_word_first",
+      "holding": {
+        "0": [101, 202, 303],
+        "10": [4660, 22136]
+      },
+      "input": {
+        "0": [1111, 2222, 3333]
+      }
+    },
+    {
+      "unit_id": 2,
+      "size": 1000,
+      "word_order": "low_word_first",
+      "holding": {
+        "0": [404, 505, 606]
+      }
+    },
+    {
+      "unit_id": 3,
+      "size": 100,
+      "holding": {
+        "0": [707, 808]
+      }
+    }
+  ]
+}
