@@ -1,0 +1,35 @@
+{
+  "devices": [
+    {
+      "unit_id": 1,
+      "holding_size": 100,
+      "input_size": 50,
+      "word_order": "ABCD",
+      "holding": {
+        "0": 1111,
+        "1": 2222,
+        "10": [100, 200, 300]
+      },
+      "inputs": {
+        "0": 9001,
+        "1": 9002
+      }
+    },
+    {
+      "unit_id": 2,
+      "holding_size": 64,
+      "input_size": 32,
+      "word_order": "CDAB",
+      "holding": {
+        "0": 0,
+        "1": 1234
+      }
+    },
+    {
+      "unit_id": 10,
+      "holding_size": 10,
+      "input_size": 10,
+      "word_order": "DCBA"
+    }
+  ]
+}
